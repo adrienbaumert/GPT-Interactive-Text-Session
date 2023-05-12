@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 3. Rename the `.env.template` file to `.env` and input OpenAI organization ID and API key (make sure to keep the quotes around both the id and api key):
-```org-************************
+```
 OPENAI_ORGANIZATION_ID = "org-************************"
 OPENAI_API_KEY = "sk-************************************************"
 ```
