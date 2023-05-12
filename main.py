@@ -43,11 +43,11 @@ except Exception as runtime_error:
     # Check if the .env file is missing and inform the user if so
     if os.path.isfile(".env") == False:
         print("Error: No .env File Found (Rename .env.template -> .env)")
-    
+
     # Catching an error from OpenAI that means there was an issue with the API key
     if str(runtime_error) == "<empty message>":
-        print("Error: No API key found")
-    
+        print("Error: Invalid OpenAI organization ID/API key")
+
     # Printing any other errors
     else:
         print(f"Error: {runtime_error}")
