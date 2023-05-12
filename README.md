@@ -18,8 +18,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ## Version
 1.0.0
 
-# GPT-Interactive-Text-Session
-
 ## Description
 This project, "GPT-Interactive-Text-Session", is an interactive Python application that interfaces with OpenAI's GPT-3.5-turbo model. The application is designed to carry on a conversation with a user by managing a GPT agent that receives user input, generates responses, and maintains memory of the conversation. It showcases the capabilities of OpenAI's chat models in a user-friendly manner.
 
