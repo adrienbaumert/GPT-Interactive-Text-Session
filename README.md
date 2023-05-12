@@ -45,15 +45,15 @@ OPENAI_ORGANIZATION_ID = "sk-************************************************"
 OPENAI_API_KEY = "org-************************"
 ```
 
+## Instructions to Find OpenAI Organization ID/API Key
+https://platform.openai.com/docs/guides/production-best-practices/setting-up-your-organization
+
 ## Usage
 To start an interactive text session, run `main.py` and follow the prompts in the console. The application will manage the flow of conversation and memory updates.
 
 ```bash
 python main.py
 ```
-
-## Instructions to Find OpenAI Organization ID/API Key
-https://platform.openai.com/docs/guides/production-best-practices/setting-up-your-organization
 
 ## Troubleshooting
 If you encounter any issues, ensure that your `.env` file is set up correctly and your OpenAI organization ID and API key are valid. If you continue to encounter problems, please submit an issue on this repository.
