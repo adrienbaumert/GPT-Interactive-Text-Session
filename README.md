@@ -56,4 +56,4 @@ python main.py
 https://platform.openai.com/docs/guides/production-best-practices/setting-up-your-organization
 
 ## Troubleshooting
-If you encounter any issues, ensure that your `.env` file is set up correctly and your OpenAI API keys are valid. If you continue to encounter problems, please submit an issue on this repository.
+If you encounter any issues, ensure that your `.env` file is set up correctly and your OpenAI organization ID and API key are valid. If you continue to encounter problems, please submit an issue on this repository.
